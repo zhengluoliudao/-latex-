@@ -1,0 +1,58 @@
+\documentclass[UTF8]{ctexart}
+%导言区
+\usepackage{amsmath}
+\usepackage{graphicx}
+%自定义命令
+\newcommand\infoTitle[2]{\title{\Large{#1} \\ \huge{#2}}}
+\newcommand\info[5]{
+\begin{center} \Large
+	\begin{tabular}{rl}
+		% after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+		课程名称: & #1 \\
+		课程类型: & #2 \\
+		实验题目: & #3 \\
+		\quad \\
+		学号: & #4 \\
+		姓名: & #5 \\
+	\end{tabular}
+\end{center}}
+
+\infoTitle{哈尔滨工业大学计算机科学与技术学院}{实验报告}
+
+%\bibliographystyle{plain}
+\begin{document}
+\maketitle
+%此处分别填入  课程名称   课程性质（选修或必修）     实验题目    姓名   学号
+\info{课程名称}{课程性质}{实验题目}{姓名}{学号}
+\newpage
+
+\tableofcontents
+\newpage
+
+\section{实验目的}
+                                               
+\section{实验要求及实验环境}
+
+\subsection{实验要求}
+
+\subsection{实验环境}
+
+
+\section{设计思想}
+
+\subsection{算法原理}
+
+\subsection{算法的实现}
+
+\section{实验结果与分析}
+
+
+\section{结论}
+
+
+\section{参考文献}
+%\bibliography{text}
+\appendix
+
+\section{源代码}
+\end{document}
